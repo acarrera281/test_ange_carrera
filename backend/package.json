@@ -1,0 +1,24 @@
+{
+  "name": "test_angel_carrera",
+  "version": "1.0.0",
+  "description": "Test Tecnico Angel Carrera",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.12",
+    "passport": "^0.4.1",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "start": "nodemon app/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Angel Carrera",
+  "license": "ISC"
+}
